@@ -20,8 +20,4 @@ public class GenericValue extends GenericId {
     private String name;
     private String description;
 
-    public GenericValue(UUID id)
-    {
-        super(id);
-    }
 }

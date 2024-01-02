@@ -9,4 +9,6 @@ import java.util.UUID;
 
 @Repository
 public interface RiskTypeRepository extends JpaRepository<RiskType, UUID> {
+    boolean existsRiskTypeByName(String name);
+    RiskType getRiskTypeByName(String name);
 }

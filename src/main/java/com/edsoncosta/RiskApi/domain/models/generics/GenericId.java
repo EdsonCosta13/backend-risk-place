@@ -23,7 +23,4 @@ public class GenericId {
     private LocalDateTime createdAt = LocalDateTime.now();
     private LocalDateTime updateddAt;
 
-    public GenericId(UUID id) {
-        this.id = id;
-    }
 }

@@ -10,10 +10,7 @@ import lombok.*;
 @Entity(name = "riskTypes")
 @Table(name = "riskTypes")
 @Data
-@Getter
-@Setter
 @AllArgsConstructor
-@NoArgsConstructor
 public class RiskType extends GenericValue {
 
     public RiskType(RiskTypeDTO data)

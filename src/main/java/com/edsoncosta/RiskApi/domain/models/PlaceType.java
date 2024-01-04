@@ -9,10 +9,7 @@ import lombok.*;
 @Entity(name = "placeTypes")
 @Table(name = "placeTypes")
 @Data
-@Getter
-@Setter
 @AllArgsConstructor
-@NoArgsConstructor
 public class PlaceType extends GenericValue {
 
 }

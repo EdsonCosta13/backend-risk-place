@@ -1,5 +1,6 @@
 package com.edsoncosta.RiskApi.infra;
 
+/*
 import com.edsoncosta.RiskApi.domain.dtos.ExceptionDTO;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -25,6 +26,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
         return ResponseEntity.badRequest().body(exceptionDTO);
     }
 
+
     @ExceptionHandler(Exception.class)
     private ResponseEntity threatGenerateException(Exception exception)
     {
@@ -33,3 +35,4 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
     }
 
 }
+*/

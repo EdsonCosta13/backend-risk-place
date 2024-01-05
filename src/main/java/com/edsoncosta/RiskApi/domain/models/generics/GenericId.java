@@ -17,7 +17,7 @@ import java.util.UUID;
 public class GenericId {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id = null;
 
     private LocalDateTime createdAt = LocalDateTime.now();

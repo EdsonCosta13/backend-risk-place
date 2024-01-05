@@ -8,7 +8,6 @@ import jakarta.persistence.Table;
 import lombok.*;
 
 @Entity(name = "riskTypes")
-@Table(name = "riskTypes")
 @Data
 @AllArgsConstructor
 public class RiskType extends GenericValue {
